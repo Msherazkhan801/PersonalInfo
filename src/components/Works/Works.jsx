@@ -25,14 +25,13 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            I work for  USA project Minstery prep App
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+           I work on IPLEX App which Manage all employee
             <br />
-            y dummy text of printingLorem
+          and accounting System of IPLEX
             <br />
-            ispum is simpley dummy text of printing
+           I also work on Local project For Dmark Company
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

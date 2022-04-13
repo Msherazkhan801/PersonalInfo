@@ -2,6 +2,7 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+import { toast } from "react-toastify";
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -12,14 +13,15 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_2thmcim",
+        "template_cl09ibm",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "xZi5Prvw_3zYbg91w"
       )
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("successfull sent ")
           setDone(true);
           form.reset();
         },

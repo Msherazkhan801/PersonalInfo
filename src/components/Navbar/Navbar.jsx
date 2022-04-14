@@ -1,5 +1,6 @@
 import React from "react";
 import Toggle from "../Toggle/Toggle";
+import logo from "../../img/logo.png"
 import "./Navbar.css";
 import { Link } from "react-scroll";
 const navbar = () => {
@@ -7,7 +8,11 @@ const navbar = () => {
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div className="n-name">SHERAZ</div>
+        <div className="n-name">
+        <Link  to="Navbar">
+          <img src={logo} alt="" style={{width:"30%",height:"20%",marginTop:"25px",cursor:"pointer"}}/>
+          </Link>
+          </div>
         <Toggle />
       </div>
       {/* right */}

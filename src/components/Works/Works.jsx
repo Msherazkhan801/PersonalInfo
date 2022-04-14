@@ -25,7 +25,7 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            I work for  USA project Minstery prep App
+            I work for  USA project Mastery Prep 
             <br />
            I work on IPLEX App which Manage all employee
             <br />

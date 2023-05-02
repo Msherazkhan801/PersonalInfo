@@ -30,7 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Sheraz Khan</span>
           <span>
-            Frontend Developer with high level of experience in web designing
+            React JS Developer with high level of experience in web designing
             and development, producting the Quality work
           </span>
         </div>
@@ -64,7 +64,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Reactjs" text2="Developer" />
+          <FloatinDiv img={crown} text1="React JS" text2="Developer" />
         </motion.div>
 
         {/* animation */}

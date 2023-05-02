@@ -25,13 +25,13 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            I work for  USA project Mastery Prep 
+            I worked  for  USA  based project 'Mastery Prep' 
             <br />
-           I work on IPLEX App which Manage all employee
+           I am working at IPLEX on UK based project 'NikeActivityfinder'.
             <br />
-          and accounting System of IPLEX
+          and managing the Websailor site
             <br />
-           I also work on Local project For Dmark Company
+           as a freelancer i am working on Upwork platform
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

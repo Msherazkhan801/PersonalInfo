@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>Sheraz.khan@iplex.co</span>
+        <span>sheraz.khan@iplex.co</span>
         <div className="f-icons">
         <a href="https://instagram.com/sherazkhan801/" target="_blank" rel="noreferrer" > <Insta color="white" size={"3rem"} /></a>
           <a href="https://www.facebook.com/profile.php?id=100006408064542" target="_blank" rel="noreferrer" >   <Facebook color="white" size={"3rem"} /></a>

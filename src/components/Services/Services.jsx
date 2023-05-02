@@ -27,9 +27,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          I will Make a Great Design for you Guys 
-          <br />
-          Contact with Me and got your disires Design
+        I can create a great design for you!<br/> Please don't hesitate to contact me to  <br/>discuss your desired design.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -59,7 +57,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, redux, Next.js"}
+            detail={"Html, Css, JavaScript, React, redux, Next.js,REST API"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +68,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"Android Developer"}
+            heading={"backend Developer"}
             detail={
-              "android Stodio ,java, XML, API"
+              "node js ,Mongo Db,SQl, API"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

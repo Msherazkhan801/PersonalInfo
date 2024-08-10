@@ -6091,6 +6091,11 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
+nvm@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/nvm/-/nvm-0.0.4.tgz"
+  integrity sha512-jvmyELykYcdyd0VCGY0E8Aqe5MngEasVvlPvrcJHbwBMUbVqa72mPdQuPzyTcykEtEx7jDrMY0QA5MoV+8EhgA==
+
 nwsapi@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.0.tgz"

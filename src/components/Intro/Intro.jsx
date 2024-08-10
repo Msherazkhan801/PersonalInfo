@@ -30,8 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Sheraz Khan</span>
           <span>
-            React JS Developer with high level of experience in web designing
-            and development, producting the Quality work
+          With a high level of expertise in web design and development, I specialize in creating dynamic and visually compelling web applications using React JS. My commitment to producing top-quality work ensures that every project I undertake is both functional and beautifully designed.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

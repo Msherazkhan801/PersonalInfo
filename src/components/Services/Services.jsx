@@ -27,7 +27,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-        I can create a great design for you!<br/> Please don't hesitate to contact me to  <br/>discuss your desired design.
+        With deep expertise in React JS, I bring your design ideas to life with dynamic<br/> and high-performance web applications. My approach ensures that <br/>your site or app is not only visually appealing but also fast, responsive,<br/> and scalable!<br/> Please don't hesitate to contact me to  <br/>discuss your desired design.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
